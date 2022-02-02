@@ -1,6 +1,4 @@
 'use strict';
- 
-import * as WEMath from 'WEMath';
 
 /**
  * @param {Number} value (for property 'Blend amount')
