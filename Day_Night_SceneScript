@@ -4,11 +4,12 @@
  * @param {Number} value (for property 'Blend amount')
  */
 
+// If you want, you can change the conditional values by calculating the desired time position between 0 and 1
 // to calculate the value of determined time: hour/24
 // Example: 7am = 7/24 = 0.292 (lets round: 0.29 is 6:59am, so is better use 0.29)
 
 // The night image must be the official image
-// The image of the day must be in Blend Texture
+// The day image must be in Blend Texture
 
 export function update(value) {
   if (0.26 > engine.timeOfDay) {                                        /* before 6:14 */
