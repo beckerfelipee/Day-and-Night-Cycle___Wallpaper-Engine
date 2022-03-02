@@ -21,7 +21,7 @@ export function update(value) {
 } else if (0.66 > engine.timeOfDay > 0.5) {                             /* between 12 and 16 */
     return 1                                                                                            /* 1 bd */
 } else if (0.83 > engine.timeOfDay > 0.76) {                            /* between 18:29 and 19:59 */
-    return (1 - engine.timeOfDay - 0.10)                                                                /* ranges from 0.14 to 0.07 bd */
+    return (1 - engine.timeOfDay)                                                                /* ranges from 0.24 to 0.17 bd */
 } else if (engine.timeOfDay >= 0.83) {                                  /* after 19:59 */
     return 0                                                                                            /* 0 bd */
 } else {                                                                /* between 16 and 18:29 */
