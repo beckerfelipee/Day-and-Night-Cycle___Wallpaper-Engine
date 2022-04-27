@@ -26,6 +26,6 @@ export function update(value) {
 } else if (engine.timeOfDay >= 0.83) {                                  /* after 19:59 */
     return 0                                                                                            /* 0 bd */
 } else {                                                                /* in case of error */
-    return 1                                                                                            /* 1bd */
+    return 1                                                                                            /* 1 bd */
 }
 }
